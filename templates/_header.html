@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <!-- begin::Head -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--begin::Base Path (base relative path for assets of this page) -->
+        <base href="{global.baseUrl}" />
+        <!--end::Base Path -->
+
+        <title>{head.title} | {global.appName}</title>
+        <link rel="stylesheet" href="public/app.css" />
+    </head>
+    <body class="{body.class}">
+        <!-- page wrapper-->
+        <div class="wrapper">
+            <!-- Header -->
+            <div class="header">
+                <!-- Logo-->
+                <a href="/" class="logo"></a>
+                <!-- Navigation -->
+                <ul class="menu">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a class="loggedOut" href="/">Signup</a>
+                    </li>
+                    <li>
+                        <a class="loggedOut" href="/">Login</a>
+                    </li>
+                    <li>
+                        <a class="loggedIn" href="/">Dashboard</a>
+                    </li>
+                    <li>
+                        <a class="loggedIn" href="/">Account Settings</a>
+                    </li>
+                    <li>
+                        <a class="loggedIn" href="/">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
